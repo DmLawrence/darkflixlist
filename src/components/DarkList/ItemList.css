@@ -1,0 +1,82 @@
+.itemCard {
+	height: 200px;
+	width:80%;
+	margin: 10px 10%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: var(--content-background-color);
+	border-style: double;
+	border-color: var(--border-color);
+	border-width: 5px;
+}
+
+.rank {
+	margin-left: 10px;
+	font-size: 1.75em;
+	align-self: center;
+}
+
+.poster {
+	display: flex;
+	margin: 0 10px;
+	align-self: center;
+}
+
+.poster>img {
+	height:150px;
+}
+
+.film {
+	width: 75%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+
+.film-item {
+	margin: 10px;
+}
+
+.title {
+	font-size: 1.2em;
+}
+
+.year {
+	font-size: .5em;
+}
+
+.description {
+	font-size: .8em;
+	width: 60%;
+}
+
+.vote {
+	height: 200px;
+	width: 100px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.votebtn {
+	height: calc(50% - 10px);
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--background-color);
+	border-radius: 50%;
+	margin: 0 10px;
+}
+
+.votebtn:hover {
+	box-shadow: 3px 3px 3px;
+	cursor: pointer;
+}
+
+ .votebtn>img {
+ 	height: 50%; 	
+ }

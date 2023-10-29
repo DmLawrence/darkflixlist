@@ -1,16 +1,21 @@
+:root {
+  --text-color: #040000;
+  --background-color: #4B0005;
+  --content-background-color: #720008;
+  --nav-background-color: #260003;
+  --border-color: #260003;
+}
+
+@font-face {
+  font-family: Metal;
+  src: url(MetalMania-Regular.ttf);
+}
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: Metal;
 }
 
 .App-header {
@@ -26,13 +31,4 @@
 
 .App-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

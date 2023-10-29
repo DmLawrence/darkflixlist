@@ -1,0 +1,15 @@
+.DarkList{
+	height: calc(100vh - 100px);
+	font-size: 2em;
+	overflow: scroll;
+	-ms-overflow-style: none;  /* Hide scroll bar in IE and Edge */
+  	scrollbar-width: none; /* Hide scroll bar in Firefox */
+}
+
+.DarkList::-webkit-scrollbar { /*Hide scroll bar in Chrome, Safari and Opera */
+  display: none;
+}
+
+.DarkList>p {
+	margin: 0;
+}
